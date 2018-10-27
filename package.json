@@ -1,0 +1,33 @@
+{
+  "name": "appinit",
+  "version": "1.0.0",
+  "description": "App init is a cli that setup your workfklow by asking you questions.",
+  "main": "bin/index.js",
+  "scripts": {
+    "r": "tsc && node bin/index.js"
+  },
+  "repository": "git+https://github.com/Voxylu/appinit.git",
+  "keywords": [
+    "cli",
+    "react",
+    "webpack",
+    "boilerplate",
+    "web",
+    "application"
+  ],
+  "author": "Voxylu <hello@voxylu.xyz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Voxylu/appinit/issues"
+  },
+  "homepage": "https://github.com/Voxylu/appinit#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "inquirer": "^6.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.1.3",
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^10.12.0"
+  }
+}
